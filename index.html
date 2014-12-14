@@ -16,7 +16,7 @@
         <h1>Carlos Martinez de la Serna</h1>
         <h2>Journalism & Design Thinking</h2>
         <p class='social_media'><a href='https://twitter.com/cmdelaserna'>twitter</a> <a href='https://secure.flickr.com/photos/carlosmartinezserna/'>flickr</a> <a href='https://github.com/cmdelaserna'>github</a> <a href='http://instagram.com/cmdelaserna'>instagram</a> <a href='https://www.linkedin.com/profile/view?id=16819646&trk=nav_responsive_tab_profile'>linkedin</a></p>
-        <p class='arrow'><a href='#quote'><img src='img/arrow.png'></a></p>
+        <p class='arrow'><a data-scroll href='#quote'><img src='img/arrow.png'></a></p>
       </div>
     </div>
 
@@ -47,17 +47,16 @@
 
       <div class='panel_credits'>
         <div class="row">
-        <p class='arrow-up'><a href='#start'><img src='img/arrow-up.png'></p>
+        <p class='arrow-up'><a data-scroll href='#start'><img src='img/arrow-up.png'></p>
         </div>
         </div>
 
       <script src="js/vendor/jquery.js"></script>
-      <script src="js/app.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+      <script src="js/foundation.min.js"></script>
       <script src="js/vendor/modernizr.js"></script>
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script src="js/smooth-scroll.min.js"></script>
+      <script>
+      smoothScroll.init();
+      </script>
   </body>
 </html>
