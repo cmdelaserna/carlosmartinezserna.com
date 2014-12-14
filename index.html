@@ -11,17 +11,17 @@
   </head>
   <body>
   
-  <div class='panel_intro'>
+  <div class='panel_intro' id='start'>
     <div class="row">
         <h1>Carlos Martinez de la Serna</h1>
         <h2>Journalism & Design Thinking</h2>
         <p class='social_media'><a href='https://twitter.com/cmdelaserna'>twitter</a> <a href='https://secure.flickr.com/photos/carlosmartinezserna/'>flickr</a> <a href='https://github.com/cmdelaserna'>github</a> <a href='http://instagram.com/cmdelaserna'>instagram</a> <a href='https://www.linkedin.com/profile/view?id=16819646&trk=nav_responsive_tab_profile'>linkedin</a></p>
-        <p class='arrow'><img src='img/arrow.png'></p>
+        <p class='arrow'><a href='#quote'><img src='img/arrow.png'></a></p>
       </div>
     </div>
 
     <div class='panel_quote'>
-    <div class="row">
+    <div class="row" id='quote'>
         <p class='quote'>"Playful is a necessary<br>part of our work"</p>
          <p class='author'>Eva Zeisel</p>
       </div>
@@ -47,11 +47,12 @@
 
       <div class='panel_credits'>
         <div class="row">
-        <p class='arrow-up'><img src='img/arrow-up.png'></p>
+        <p class='arrow-up'><a href='#start'><img src='img/arrow-up.png'></p>
         </div>
         </div>
 
       <script src="js/vendor/jquery.js"></script>
+      <script src="js/app.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
