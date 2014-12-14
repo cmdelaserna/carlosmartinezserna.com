@@ -1,6 +1,6 @@
 # personal site template
 
-### Foundation based on Zurb - Compass Template Requirements
+### Foundation - Compass Template Requirements
 
   * Ruby 1.9+
   * [Node.js](http://nodejs.org)
