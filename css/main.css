@@ -195,6 +195,22 @@ p.about a:hover {
 	border-bottom: none;
 }
 
+p a img {
+	width:30px;
+	margin: 30px 10px 0 10px;
+	opacity: 0.2;
+		-webkit-transition: opacity 1s ease;
+		-moz-transition: 1s ease;
+		-ms-transition:  1s ease;
+		transition: 1s ease;
+	border-bottom:none;
+}
+
+img:hover{
+	opacity:1;
+}
+
+
 /*@media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
