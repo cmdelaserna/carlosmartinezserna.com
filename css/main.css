@@ -198,7 +198,7 @@ p.about a:hover {
 p a img {
 	width:30px;
 	margin: 30px 10px 0 10px;
-	opacity: 0.2;
+	opacity: 0.4;
 		-webkit-transition: opacity 1s ease;
 		-moz-transition: 1s ease;
 		-ms-transition:  1s ease;
@@ -210,17 +210,6 @@ img:hover{
 	opacity:1;
 }
 
-
-/*@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-	h1 {
-		font-size: 1.5rem;
-	}
-	p.quote {
-		font-size: 2rem;
-	}
-}*/
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
