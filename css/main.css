@@ -65,7 +65,9 @@ h3 {
 }
 
 .panel_intro {
-	background:#384047;
+	/*background:#384047;*/
+	background: url(../img/bk.png);
+	background-size: cover;
 	height:100%;
 }
 
