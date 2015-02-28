@@ -5,6 +5,7 @@ body {
 	font-weight: normal;
 	margin: 0;
 	padding: 0;
+	display:none;
 	}
 
 p.social_media a {
