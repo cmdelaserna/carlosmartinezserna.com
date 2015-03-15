@@ -1,1 +1,1 @@
-$(document).ready(function(){$("body").fadeIn("slow")});
+window.sr=new scrollReveal(config);var config={mobile:!0,reset:!1,delay:"once",vFactor:.1};$(document).ready(function(){$("body").fadeIn("slow")});
