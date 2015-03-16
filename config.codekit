@@ -539,6 +539,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/portfolio\/fukushima.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 158251,
+		"inputAbbreviatedPath": "\/img\/portfolio\/fukushima.png",
+		"outputAbbreviatedPath": "\/img\/portfolio\/fukushima.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/portfolio\/music.png": {
 		"fileType": 32768,
 		"ignore": 0,
