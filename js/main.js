@@ -2,6 +2,8 @@
 $( document ).ready(function() {
      $( "body" ).animate({
         opacity: "1",}, 
-        800, "linear");
-     $( "#portfolio" ).fadeIn('slow');
+        1000, "linear");
+     $( "#portfolio" ).animate({
+        opacity: "1",}, 
+        1500, "linear");
 });
