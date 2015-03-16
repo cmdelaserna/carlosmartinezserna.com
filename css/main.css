@@ -2,6 +2,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
+    opacity: 0;
 }
 
 p {
@@ -149,6 +150,11 @@ section.success {
     padding-bottom: 0;
 }
 
+.success .row {
+    max-width: 95%;
+    margin: 20px auto 0 auto;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -157,6 +163,10 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+#portfolio {
+    display: none;
 }
 
 #portfolio .portfolio-item {
