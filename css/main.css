@@ -179,7 +179,7 @@ section.success {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    border: 1px solid #f1f1f1;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -372,10 +372,12 @@ footer .footer-below {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 2em;
+    margin-bottom: 20px;
 }
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
+    border: 1px solid #f1f1f1;
 }
 
 .portfolio-modal .modal-content .item-details {
