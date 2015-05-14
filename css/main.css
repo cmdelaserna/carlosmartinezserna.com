@@ -1,7 +1,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "chaparral-pro",sans-serif;
+    font-family: "futura-pt",sans-serif;
     opacity: 0;
     font-size: 16px;
 }
@@ -10,7 +10,7 @@ p {
     font-size: 1.2em;
     line-height: 1.8em;
     margin-bottom: 30px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 p.small {
@@ -37,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "jaf-facitweb",sans-serif;
+    font-family: "futura-pt",sans-serif;
     font-weight: 300;
     color: #121212;
 }
