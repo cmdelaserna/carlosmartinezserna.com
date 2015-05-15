@@ -48,7 +48,8 @@ hr {
 }
 
 .img-centered {
-    margin: 0 auto;
+    margin: 10px auto;
+    width: 100%;
 }
 
 
@@ -58,7 +59,7 @@ header {
 }
 
 header .container {
-    padding: 3em 0 0 0;
+    padding: 2em 0 0 0;
 }
 
 header .intro-text .name {
@@ -73,7 +74,7 @@ header .intro-text .skills {
 }
 
 #social-media {
-    padding: 2em 0;
+    padding: 2em 0 ;
 }
 
 @media(min-width:768px) {
@@ -115,7 +116,7 @@ li {
 }
 
 section.success {
-    padding: 2em 0;
+    padding:0;
     /*background: #f9f9f9;*/
 }
 
