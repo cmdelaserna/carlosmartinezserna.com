@@ -1,7 +1,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "futura-pt",sans-serif;
+    font-family: "sax-mono",monospace;
     opacity: 0;
     font-size: 16px;
 }
@@ -29,17 +29,6 @@ a.active {
 a:hover {
     color: #999;
     text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "futura-pt",sans-serif;
-    font-weight: 300;
-    color: #121212;
 }
 
 hr {
