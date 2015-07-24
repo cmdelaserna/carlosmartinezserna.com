@@ -10,7 +10,7 @@ p {
     font-size: 1.2em;
     line-height: 1.8em;
     margin-bottom: 30px;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 p.small {
@@ -53,8 +53,8 @@ header .container {
 
 header .intro-text .name {
     display: block;
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 1.2em;
+    font-weight: 300;
 }
 
 header .intro-text .skills {
@@ -70,10 +70,6 @@ header .intro-text .skills {
     header .container {
         background-size: cover;
         height:100%;
-    }
-
-    header .intro-text .name {
-        font-size: 2em;
     }
 
     header .intro-text .skills {
