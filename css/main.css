@@ -51,20 +51,36 @@ header .container {
     padding: 2em 0 0 0;
 }
 
+header .intro-text {
+    margin: 20px 0;
+}
+
 header .intro-text .name {
-    margin-top: 10%;
     display: block;
     font-size: 1.2em;
     font-weight: 500;
 }
 
 header .intro-text .skills {
-    font-size: 1.2em;
+    font-size: .8em;
     font-weight: 100;
+    color: #999;
+}
+
+header .quote {
+    font-size: 1.5em;
+    font-weight: 100;
+    font-style: italic;
+    max-width: 600px;
+    padding: 0 20px; 
+    display: block;
+    margin: 4em auto; 
+    line-height: 2em;
+    color: #999;
 }
 
 #social-media {
-    padding: 2em 0 ;
+    padding: 1em 0 ;
 }
 
 @media(min-width:768px) {
@@ -86,29 +102,6 @@ header .intro-text .skills {
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
-}
-
-#academic {
-    background: #f9f9f9; 
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    list-style: none;
-}
-
-section.success {
-    padding:0;
-    /*background: #f9f9f9;*/
-}
-
-.success .row {
-    max-width: 95%;
-    margin: 0 auto;
 }
 
 @media(max-width:767px) {
