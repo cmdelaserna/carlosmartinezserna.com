@@ -41,7 +41,6 @@ hr {
     width: 100%;
 }
 
-
 header {
     text-align: center;
     color: #121212;
@@ -57,7 +56,7 @@ header .intro-text {
 
 header .intro-text .name {
     display: block;
-    font-size: 1.2em;
+    font-size: 2em;
     font-weight: 500;
 }
 
@@ -68,13 +67,10 @@ header .intro-text .skills {
 }
 
 header .quote {
-    font-size: 1.5em;
-    font-weight: 100;
-    font-style: italic;
-    max-width: 600px;
-    padding: 0 20px; 
-    display: block;
-    margin: 4em auto; 
+    font-size: 2em;
+    font-weight: 500;
+    max-width: 70%;
+    margin: 15% auto; 
     line-height: 2em;
     color: #999;
 }
@@ -84,7 +80,10 @@ header .quote small {
 }
 
 #social-media {
-    padding: 1em 0 ;
+    position: fixed;
+    left: 25%;
+    right: 25%;
+    bottom: 25px;
 }
 
 @media(min-width:768px) {
@@ -109,12 +108,15 @@ header .quote small {
 }
 
 @media(max-width:767px) {
-    section {
-        padding: 40px 0;
+       header .quote {
+        font-size: 1.2em;
+        max-width: 90%;
+        margin: 45% auto; 
     }
 
-    section.first {
-        padding-top: 75px;
+header .intro-text .name {
+    display: block;
+    font-size: 1.2em;
     }
 }
 
