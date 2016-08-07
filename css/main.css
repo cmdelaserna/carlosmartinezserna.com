@@ -4,6 +4,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     opacity: 0;
     font-size: 14px;
+    background-color: #ededed;
 }
 
 p {
@@ -30,7 +31,7 @@ a:hover {
 
 header {
     text-align: center;
-    color: #121212;
+    color: #282725;
 }
 
 header .intro-text {
@@ -45,11 +46,11 @@ header .intro-text .name {
 
 header .quote {
     font-size: 2em;
-    font-weight: 500;
-    max-width: 70%;
+    font-weight: 100;
+    max-width: 600px;
     margin: 15% auto; 
     line-height: 2em;
-    color: #999;
+    color: #282725;
 }
 
 #social-media {
@@ -79,7 +80,6 @@ header .quote {
 .fa-fw:hover {
     color: #d9d9d9;
 }
-
 
 @media(max-width:767px) {
        header .quote {
