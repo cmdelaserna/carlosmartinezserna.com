@@ -1,7 +1,9 @@
 
 body {
     overflow-x: hidden;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: Arimo;
+    font-style: normal;
+    font-variant: normal;
     opacity: 0;
     font-size: 14px;
     background-color: #ededed;
@@ -11,7 +13,6 @@ p {
     font-size: 1.2em;
     line-height: 1.8em;
     margin-bottom: 30px;
-    font-weight: 100;
 }
 
 a,
@@ -31,7 +32,7 @@ a:hover {
 
 header {
     text-align: center;
-    color: #282725;
+    color: #333B3F;
 }
 
 header .intro-text {
@@ -41,16 +42,16 @@ header .intro-text {
 header .intro-text .name {
     display: block;
     font-size: 2em;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 header .quote {
     font-size: 2em;
-    font-weight: 300;
+    font-weight: 500;
     max-width: 650px;
     margin: 15% auto; 
     line-height: 2em;
-    color: #282725;
+    color: #333B3F;
 }
 
 #social-media {
