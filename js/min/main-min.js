@@ -1,1 +1,0 @@
-function imgLoaded(){$("body").animate({opacity:"1"},1e3,"linear"),$("#portfolio").animate({opacity:"1"},1500,"linear")}$(document).ready(function(){imgLoaded()});
